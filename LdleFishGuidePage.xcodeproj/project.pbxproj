@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF913431D240B3C00289998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913421D240B3C00289998 /* main.m */; };
+		4CF913461D240B3C00289998 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913451D240B3C00289998 /* AppDelegate.m */; };
+		4CF913491D240B3C00289998 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913481D240B3C00289998 /* ViewController.m */; };
+		4CF9134E1D240B3C00289998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF9134D1D240B3C00289998 /* Assets.xcassets */; };
+		4CF913511D240B3C00289998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF9134F1D240B3C00289998 /* LaunchScreen.storyboard */; };
+		4CF9135C1D240B3C00289998 /* LdleFishGuidePageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9135B1D240B3C00289998 /* LdleFishGuidePageTests.m */; };
+		4CF913671D240B3C00289998 /* LdleFishGuidePageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913661D240B3C00289998 /* LdleFishGuidePageUITests.m */; };
+		4CF913781D240B6900289998 /* guide0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF913741D240B6900289998 /* guide0.mp4 */; };
+		4CF913791D240B6900289998 /* guide1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF913751D240B6900289998 /* guide1.mp4 */; };
+		4CF9137A1D240B6900289998 /* guide2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF913761D240B6900289998 /* guide2.mp4 */; };
+		4CF9137B1D240B6900289998 /* guide3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF913771D240B6900289998 /* guide3.mp4 */; };
+		4CF9137F1D240C9E00289998 /* UIWindow+NewFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9137E1D240C9E00289998 /* UIWindow+NewFeature.m */; };
+		4CF913841D240D1000289998 /* LdleFishTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913831D240D1000289998 /* LdleFishTabBarController.m */; };
+		4CF913891D240DAA00289998 /* LdleFishNewFeatrueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913881D240DAA00289998 /* LdleFishNewFeatrueController.m */; };
+		4CF9138C1D240E8C00289998 /* LdleFishNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9138B1D240E8C00289998 /* LdleFishNavigationController.m */; };
+		4CF9139F1D240FB600289998 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9139E1D240FB600289998 /* HomeViewController.m */; };
+		4CF913A21D240FC800289998 /* FishPondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913A11D240FC800289998 /* FishPondViewController.m */; };
+		4CF913A51D240FD900289998 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913A41D240FD900289998 /* MessageViewController.m */; };
+		4CF913A81D240FED00289998 /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913A71D240FED00289998 /* PersonalCenterViewController.m */; };
+		4CF913AC1D2411CF00289998 /* LdleFishNewFeatrueViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913AB1D2411CF00289998 /* LdleFishNewFeatrueViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CF913581D240B3C00289998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF913361D240B3C00289998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF9133D1D240B3C00289998;
+			remoteInfo = LdleFishGuidePage;
+		};
+		4CF913631D240B3C00289998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF913361D240B3C00289998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF9133D1D240B3C00289998;
+			remoteInfo = LdleFishGuidePage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CF9133E1D240B3C00289998 /* LdleFishGuidePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LdleFishGuidePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF913421D240B3C00289998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CF913441D240B3C00289998 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CF913451D240B3C00289998 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CF913471D240B3C00289998 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CF913481D240B3C00289998 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CF9134D1D240B3C00289998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF913501D240B3C00289998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF913521D240B3C00289998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF913571D240B3C00289998 /* LdleFishGuidePageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LdleFishGuidePageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF9135B1D240B3C00289998 /* LdleFishGuidePageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LdleFishGuidePageTests.m; sourceTree = "<group>"; };
+		4CF9135D1D240B3C00289998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF913621D240B3C00289998 /* LdleFishGuidePageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LdleFishGuidePageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF913661D240B3C00289998 /* LdleFishGuidePageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LdleFishGuidePageUITests.m; sourceTree = "<group>"; };
+		4CF913681D240B3C00289998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF913741D240B6900289998 /* guide0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide0.mp4; sourceTree = "<group>"; };
+		4CF913751D240B6900289998 /* guide1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide1.mp4; sourceTree = "<group>"; };
+		4CF913761D240B6900289998 /* guide2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide2.mp4; sourceTree = "<group>"; };
+		4CF913771D240B6900289998 /* guide3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide3.mp4; sourceTree = "<group>"; };
+		4CF9137D1D240C9E00289998 /* UIWindow+NewFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+NewFeature.h"; sourceTree = "<group>"; };
+		4CF9137E1D240C9E00289998 /* UIWindow+NewFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+NewFeature.m"; sourceTree = "<group>"; };
+		4CF913821D240D1000289998 /* LdleFishTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LdleFishTabBarController.h; sourceTree = "<group>"; };
+		4CF913831D240D1000289998 /* LdleFishTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LdleFishTabBarController.m; sourceTree = "<group>"; };
+		4CF913871D240DAA00289998 /* LdleFishNewFeatrueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LdleFishNewFeatrueController.h; sourceTree = "<group>"; };
+		4CF913881D240DAA00289998 /* LdleFishNewFeatrueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LdleFishNewFeatrueController.m; sourceTree = "<group>"; };
+		4CF9138A1D240E8C00289998 /* LdleFishNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LdleFishNavigationController.h; sourceTree = "<group>"; };
+		4CF9138B1D240E8C00289998 /* LdleFishNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LdleFishNavigationController.m; sourceTree = "<group>"; };
+		4CF9139D1D240FB600289998 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4CF9139E1D240FB600289998 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4CF913A01D240FC800289998 /* FishPondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishPondViewController.h; sourceTree = "<group>"; };
+		4CF913A11D240FC800289998 /* FishPondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishPondViewController.m; sourceTree = "<group>"; };
+		4CF913A31D240FD900289998 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		4CF913A41D240FD900289998 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		4CF913A61D240FED00289998 /* PersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterViewController.h; sourceTree = "<group>"; };
+		4CF913A71D240FED00289998 /* PersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
+		4CF913AA1D2411CF00289998 /* LdleFishNewFeatrueViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LdleFishNewFeatrueViewCell.h; sourceTree = "<group>"; };
+		4CF913AB1D2411CF00289998 /* LdleFishNewFeatrueViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LdleFishNewFeatrueViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF9133B1D240B3C00289998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF913541D240B3C00289998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF9135F1D240B3C00289998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF913351D240B3C00289998 = {
+			isa = PBXGroup;
+			children = (
+				4CF913401D240B3C00289998 /* LdleFishGuidePage */,
+				4CF9135A1D240B3C00289998 /* LdleFishGuidePageTests */,
+				4CF913651D240B3C00289998 /* LdleFishGuidePageUITests */,
+				4CF9133F1D240B3C00289998 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF9133F1D240B3C00289998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9133E1D240B3C00289998 /* LdleFishGuidePage.app */,
+				4CF913571D240B3C00289998 /* LdleFishGuidePageTests.xctest */,
+				4CF913621D240B3C00289998 /* LdleFishGuidePageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF913401D240B3C00289998 /* LdleFishGuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913991D240FA000289998 /* Home(首页) */,
+				4CF913951D240F9400289998 /* FishPond(鱼塘) */,
+				4CF913911D240F8D00289998 /* Message(消息) */,
+				4CF9138D1D240F8600289998 /* PersonalCenter(个人中心) */,
+				4CF913851D240D5E00289998 /* NewFeatrue(新特性) */,
+				4CF913801D240CE300289998 /* Main */,
+				4CF9137C1D240C8000289998 /* Category */,
+				4CF913441D240B3C00289998 /* AppDelegate.h */,
+				4CF913451D240B3C00289998 /* AppDelegate.m */,
+				4CF913471D240B3C00289998 /* ViewController.h */,
+				4CF913481D240B3C00289998 /* ViewController.m */,
+				4CF9134D1D240B3C00289998 /* Assets.xcassets */,
+				4CF9134F1D240B3C00289998 /* LaunchScreen.storyboard */,
+				4CF913521D240B3C00289998 /* Info.plist */,
+				4CF913411D240B3C00289998 /* Supporting Files */,
+			);
+			path = LdleFishGuidePage;
+			sourceTree = "<group>";
+		};
+		4CF913411D240B3C00289998 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913741D240B6900289998 /* guide0.mp4 */,
+				4CF913751D240B6900289998 /* guide1.mp4 */,
+				4CF913761D240B6900289998 /* guide2.mp4 */,
+				4CF913771D240B6900289998 /* guide3.mp4 */,
+				4CF913421D240B3C00289998 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CF9135A1D240B3C00289998 /* LdleFishGuidePageTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9135B1D240B3C00289998 /* LdleFishGuidePageTests.m */,
+				4CF9135D1D240B3C00289998 /* Info.plist */,
+			);
+			path = LdleFishGuidePageTests;
+			sourceTree = "<group>";
+		};
+		4CF913651D240B3C00289998 /* LdleFishGuidePageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913661D240B3C00289998 /* LdleFishGuidePageUITests.m */,
+				4CF913681D240B3C00289998 /* Info.plist */,
+			);
+			path = LdleFishGuidePageUITests;
+			sourceTree = "<group>";
+		};
+		4CF9137C1D240C8000289998 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9137D1D240C9E00289998 /* UIWindow+NewFeature.h */,
+				4CF9137E1D240C9E00289998 /* UIWindow+NewFeature.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4CF913801D240CE300289998 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913811D240CE300289998 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4CF913811D240CE300289998 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913821D240D1000289998 /* LdleFishTabBarController.h */,
+				4CF913831D240D1000289998 /* LdleFishTabBarController.m */,
+				4CF9138A1D240E8C00289998 /* LdleFishNavigationController.h */,
+				4CF9138B1D240E8C00289998 /* LdleFishNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CF913851D240D5E00289998 /* NewFeatrue(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913861D240D7300289998 /* Controller */,
+				4CF913A91D2411A100289998 /* View */,
+			);
+			path = "NewFeatrue(新特性)";
+			sourceTree = "<group>";
+		};
+		4CF913861D240D7300289998 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913871D240DAA00289998 /* LdleFishNewFeatrueController.h */,
+				4CF913881D240DAA00289998 /* LdleFishNewFeatrueController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CF9138D1D240F8600289998 /* PersonalCenter(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9138E1D240F8600289998 /* Controller */,
+				4CF9138F1D240F8600289998 /* Model */,
+				4CF913901D240F8600289998 /* View */,
+			);
+			path = "PersonalCenter(个人中心)";
+			sourceTree = "<group>";
+		};
+		4CF9138E1D240F8600289998 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913A61D240FED00289998 /* PersonalCenterViewController.h */,
+				4CF913A71D240FED00289998 /* PersonalCenterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CF9138F1D240F8600289998 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CF913901D240F8600289998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CF913911D240F8D00289998 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913921D240F8D00289998 /* Controller */,
+				4CF913931D240F8D00289998 /* Model */,
+				4CF913941D240F8D00289998 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		4CF913921D240F8D00289998 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913A31D240FD900289998 /* MessageViewController.h */,
+				4CF913A41D240FD900289998 /* MessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CF913931D240F8D00289998 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CF913941D240F8D00289998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CF913951D240F9400289998 /* FishPond(鱼塘) */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913961D240F9400289998 /* Controller */,
+				4CF913971D240F9400289998 /* Model */,
+				4CF913981D240F9400289998 /* View */,
+			);
+			path = "FishPond(鱼塘)";
+			sourceTree = "<group>";
+		};
+		4CF913961D240F9400289998 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913A01D240FC800289998 /* FishPondViewController.h */,
+				4CF913A11D240FC800289998 /* FishPondViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CF913971D240F9400289998 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CF913981D240F9400289998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CF913991D240FA000289998 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9139A1D240FA000289998 /* Controller */,
+				4CF9139B1D240FA000289998 /* Model */,
+				4CF9139C1D240FA000289998 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		4CF9139A1D240FA000289998 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9139D1D240FB600289998 /* HomeViewController.h */,
+				4CF9139E1D240FB600289998 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CF9139B1D240FA000289998 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CF9139C1D240FA000289998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CF913A91D2411A100289998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CF913AA1D2411CF00289998 /* LdleFishNewFeatrueViewCell.h */,
+				4CF913AB1D2411CF00289998 /* LdleFishNewFeatrueViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF9133D1D240B3C00289998 /* LdleFishGuidePage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF9136B1D240B3C00289998 /* Build configuration list for PBXNativeTarget "LdleFishGuidePage" */;
+			buildPhases = (
+				4CF9133A1D240B3C00289998 /* Sources */,
+				4CF9133B1D240B3C00289998 /* Frameworks */,
+				4CF9133C1D240B3C00289998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LdleFishGuidePage;
+			productName = LdleFishGuidePage;
+			productReference = 4CF9133E1D240B3C00289998 /* LdleFishGuidePage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CF913561D240B3C00289998 /* LdleFishGuidePageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF9136E1D240B3C00289998 /* Build configuration list for PBXNativeTarget "LdleFishGuidePageTests" */;
+			buildPhases = (
+				4CF913531D240B3C00289998 /* Sources */,
+				4CF913541D240B3C00289998 /* Frameworks */,
+				4CF913551D240B3C00289998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF913591D240B3C00289998 /* PBXTargetDependency */,
+			);
+			name = LdleFishGuidePageTests;
+			productName = LdleFishGuidePageTests;
+			productReference = 4CF913571D240B3C00289998 /* LdleFishGuidePageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CF913611D240B3C00289998 /* LdleFishGuidePageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF913711D240B3C00289998 /* Build configuration list for PBXNativeTarget "LdleFishGuidePageUITests" */;
+			buildPhases = (
+				4CF9135E1D240B3C00289998 /* Sources */,
+				4CF9135F1D240B3C00289998 /* Frameworks */,
+				4CF913601D240B3C00289998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF913641D240B3C00289998 /* PBXTargetDependency */,
+			);
+			name = LdleFishGuidePageUITests;
+			productName = LdleFishGuidePageUITests;
+			productReference = 4CF913621D240B3C00289998 /* LdleFishGuidePageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF913361D240B3C00289998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.51fanxing.searchController;
+				TargetAttributes = {
+					4CF9133D1D240B3C00289998 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4CF913561D240B3C00289998 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4CF9133D1D240B3C00289998;
+					};
+					4CF913611D240B3C00289998 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4CF9133D1D240B3C00289998;
+					};
+				};
+			};
+			buildConfigurationList = 4CF913391D240B3C00289998 /* Build configuration list for PBXProject "LdleFishGuidePage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF913351D240B3C00289998;
+			productRefGroup = 4CF9133F1D240B3C00289998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF9133D1D240B3C00289998 /* LdleFishGuidePage */,
+				4CF913561D240B3C00289998 /* LdleFishGuidePageTests */,
+				4CF913611D240B3C00289998 /* LdleFishGuidePageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF9133C1D240B3C00289998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF9137B1D240B6900289998 /* guide3.mp4 in Resources */,
+				4CF913791D240B6900289998 /* guide1.mp4 in Resources */,
+				4CF913511D240B3C00289998 /* LaunchScreen.storyboard in Resources */,
+				4CF9134E1D240B3C00289998 /* Assets.xcassets in Resources */,
+				4CF9137A1D240B6900289998 /* guide2.mp4 in Resources */,
+				4CF913781D240B6900289998 /* guide0.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF913551D240B3C00289998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF913601D240B3C00289998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF9133A1D240B3C00289998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF9138C1D240E8C00289998 /* LdleFishNavigationController.m in Sources */,
+				4CF913491D240B3C00289998 /* ViewController.m in Sources */,
+				4CF913461D240B3C00289998 /* AppDelegate.m in Sources */,
+				4CF913A21D240FC800289998 /* FishPondViewController.m in Sources */,
+				4CF913431D240B3C00289998 /* main.m in Sources */,
+				4CF9137F1D240C9E00289998 /* UIWindow+NewFeature.m in Sources */,
+				4CF913A51D240FD900289998 /* MessageViewController.m in Sources */,
+				4CF913891D240DAA00289998 /* LdleFishNewFeatrueController.m in Sources */,
+				4CF913A81D240FED00289998 /* PersonalCenterViewController.m in Sources */,
+				4CF913841D240D1000289998 /* LdleFishTabBarController.m in Sources */,
+				4CF9139F1D240FB600289998 /* HomeViewController.m in Sources */,
+				4CF913AC1D2411CF00289998 /* LdleFishNewFeatrueViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF913531D240B3C00289998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF9135C1D240B3C00289998 /* LdleFishGuidePageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF9135E1D240B3C00289998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF913671D240B3C00289998 /* LdleFishGuidePageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CF913591D240B3C00289998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF9133D1D240B3C00289998 /* LdleFishGuidePage */;
+			targetProxy = 4CF913581D240B3C00289998 /* PBXContainerItemProxy */;
+		};
+		4CF913641D240B3C00289998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF9133D1D240B3C00289998 /* LdleFishGuidePage */;
+			targetProxy = 4CF913631D240B3C00289998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CF9134F1D240B3C00289998 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF913501D240B3C00289998 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF913691D240B3C00289998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF9136A1D240B3C00289998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF9136C1D240B3C00289998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LdleFishGuidePage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.LdleFishGuidePage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CF9136D1D240B3C00289998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LdleFishGuidePage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.LdleFishGuidePage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CF9136F1D240B3C00289998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LdleFishGuidePageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.LdleFishGuidePageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LdleFishGuidePage.app/LdleFishGuidePage";
+			};
+			name = Debug;
+		};
+		4CF913701D240B3C00289998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LdleFishGuidePageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.LdleFishGuidePageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LdleFishGuidePage.app/LdleFishGuidePage";
+			};
+			name = Release;
+		};
+		4CF913721D240B3C00289998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LdleFishGuidePageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.LdleFishGuidePageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LdleFishGuidePage;
+			};
+			name = Debug;
+		};
+		4CF913731D240B3C00289998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LdleFishGuidePageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.LdleFishGuidePageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LdleFishGuidePage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF913391D240B3C00289998 /* Build configuration list for PBXProject "LdleFishGuidePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF913691D240B3C00289998 /* Debug */,
+				4CF9136A1D240B3C00289998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF9136B1D240B3C00289998 /* Build configuration list for PBXNativeTarget "LdleFishGuidePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF9136C1D240B3C00289998 /* Debug */,
+				4CF9136D1D240B3C00289998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CF9136E1D240B3C00289998 /* Build configuration list for PBXNativeTarget "LdleFishGuidePageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF9136F1D240B3C00289998 /* Debug */,
+				4CF913701D240B3C00289998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CF913711D240B3C00289998 /* Build configuration list for PBXNativeTarget "LdleFishGuidePageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF913721D240B3C00289998 /* Debug */,
+				4CF913731D240B3C00289998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF913361D240B3C00289998 /* Project object */;
+}
