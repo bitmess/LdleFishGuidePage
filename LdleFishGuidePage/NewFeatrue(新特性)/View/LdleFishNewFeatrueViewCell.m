@@ -12,6 +12,7 @@
 @interface LdleFishNewFeatrueViewCell ()
 
 @property (nonatomic, strong) MPMoviePlayerController *moviePlayerController;
+@property (nonatomic, strong) UIImageView *imageView;
 
 @end
 @implementation LdleFishNewFeatrueViewCell
@@ -20,14 +21,28 @@
 {
     // 将要自动播放
     if (self.moviePlayerController.loadState == MPMovieLoadStatePlaythroughOK){
+        self.imageView.hidden = YES;
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            
+            dispatch_sync(dispatch_get_main_queue(), ^{
+                
+                
+                [self.moviePlayerController play];
+            });
+        });
 
-        [self.moviePlayerController play];
     }
 }
 
 - (void)playFinished
 {
-    [self.moviePlayerController prepareToPlay];
+//    [self.moviePlayerController prepareToPlay];
+}
+
+- (void)setImagePath:(NSString *)imagePath
+{
+    _imagePath = imagePath;
+    self.imageView.image = [UIImage imageNamed:imagePath];
 }
 
 - (void)setMoviePath:(NSString *)moviePath
@@ -36,9 +51,16 @@
     
     // 停止之前的播放
     [self.moviePlayerController stop];
-    // 设置播放的路径
-    self.moviePlayerController.contentURL = [[NSURL alloc] initFileURLWithPath:moviePath];
-    [self.moviePlayerController prepareToPlay];
+    self.imageView.hidden = NO;
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        
+        dispatch_sync(dispatch_get_main_queue(), ^{
+            
+            // 设置播放的路径
+            self.moviePlayerController.contentURL = [[NSURL alloc] initFileURLWithPath:moviePath];
+            [self.moviePlayerController prepareToPlay];
+        });
+    });
 }
 
 - (void)dealloc
@@ -68,5 +90,15 @@
     }
     return _moviePlayerController;
 }
+
+- (UIImageView *)imageView
+{
+    if (!_imageView) {
+        _imageView = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        [self.moviePlayerController.view addSubview:_imageView];
+    }
+    return _imageView;
+}
+
 
 @end

@@ -15,6 +15,7 @@
 @property (nonatomic, strong) UIPageControl *pageControl;
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) NSArray *guideMoviePaths;
+@property (nonatomic, strong) NSArray *guideImages;
 @property (nonatomic, assign, getter=isMovieFinished) BOOL movieFinished;
 
 @end
@@ -29,7 +30,7 @@ static NSString * const reuseIdentifier = @"LdleFishNewFeatrueViewCellReuseIdent
     
     [self.collectionView registerClass:[LdleFishNewFeatrueViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
-
+    self.guideImages = @[@"guide0", @"guide1", @"guide2", @"guide3"];
     NSMutableArray *array = [NSMutableArray array];
     for (int i = 0; i < 4; i++) {
         [array addObject:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"guide%d",i] ofType:@"mp4"]];
@@ -43,14 +44,14 @@ static NSString * const reuseIdentifier = @"LdleFishNewFeatrueViewCellReuseIdent
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     
-    return self.guideMoviePaths.count;
+    return self.guideImages.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     LdleFishNewFeatrueViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+    cell.imagePath = self.guideImages[indexPath.row];
     cell.moviePath = self.guideMoviePaths[indexPath.row];
-    
     cell.finishedBlock = ^(BOOL finished){
         self.movieFinished = finished;
     };
@@ -76,7 +77,7 @@ static NSString * const reuseIdentifier = @"LdleFishNewFeatrueViewCellReuseIdent
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row == self.guideMoviePaths.count - 1) {
+    if (indexPath.row == self.guideImages.count - 1) {
         UIWindow *window = [UIApplication sharedApplication].keyWindow;
         window.rootViewController = [[LdleFishTabBarController alloc] init];
         CATransition *anim = [CATransition animation];
@@ -119,6 +120,14 @@ static NSString * const reuseIdentifier = @"LdleFishNewFeatrueViewCellReuseIdent
         _guideMoviePaths = [NSArray array];
     }
     return _guideMoviePaths;
+}
+
+- (NSArray *)guideImages
+{
+    if (!_guideImages) {
+        _guideImages = [NSArray array];
+    }
+    return _guideImages;
 }
 
 @end

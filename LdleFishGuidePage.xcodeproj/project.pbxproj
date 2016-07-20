@@ -650,7 +650,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LdleFishGuidePage/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.LdleFishGuidePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -662,7 +662,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LdleFishGuidePage/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.LdleFishGuidePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -734,6 +734,7 @@
 				4CF9136D1D240B3C00289998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CF9136E1D240B3C00289998 /* Build configuration list for PBXNativeTarget "LdleFishGuidePageTests" */ = {
 			isa = XCConfigurationList;
@@ -742,6 +743,7 @@
 				4CF913701D240B3C00289998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CF913711D240B3C00289998 /* Build configuration list for PBXNativeTarget "LdleFishGuidePageUITests" */ = {
 			isa = XCConfigurationList;
@@ -750,6 +752,7 @@
 				4CF913731D240B3C00289998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

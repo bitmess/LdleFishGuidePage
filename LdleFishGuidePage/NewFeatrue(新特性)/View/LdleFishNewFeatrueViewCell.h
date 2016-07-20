@@ -13,7 +13,8 @@ typedef void(^MoviePlayFinishedBlock) (BOOL);
 
 @interface LdleFishNewFeatrueViewCell : UICollectionViewCell
 
-@property (nonatomic, strong) NSString *moviePath;
+@property (nonatomic, copy) NSString *moviePath;
+@property (nonatomic, copy) NSString *imagePath;
 @property (nonatomic, copy) MoviePlayFinishedBlock finishedBlock;
 
 @end
