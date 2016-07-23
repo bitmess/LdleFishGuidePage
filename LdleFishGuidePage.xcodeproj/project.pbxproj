@@ -10,7 +10,6 @@
 		4CA7867F1D3F14A4007A7CA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA7867E1D3F14A4007A7CA9 /* Images.xcassets */; };
 		4CF913431D240B3C00289998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913421D240B3C00289998 /* main.m */; };
 		4CF913461D240B3C00289998 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913451D240B3C00289998 /* AppDelegate.m */; };
-		4CF913491D240B3C00289998 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913481D240B3C00289998 /* ViewController.m */; };
 		4CF913511D240B3C00289998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF9134F1D240B3C00289998 /* LaunchScreen.storyboard */; };
 		4CF9135C1D240B3C00289998 /* LdleFishGuidePageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9135B1D240B3C00289998 /* LdleFishGuidePageTests.m */; };
 		4CF913671D240B3C00289998 /* LdleFishGuidePageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913661D240B3C00289998 /* LdleFishGuidePageUITests.m */; };
@@ -52,8 +51,6 @@
 		4CF913421D240B3C00289998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CF913441D240B3C00289998 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CF913451D240B3C00289998 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4CF913471D240B3C00289998 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4CF913481D240B3C00289998 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4CF913501D240B3C00289998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CF913521D240B3C00289998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CF913571D240B3C00289998 /* LdleFishGuidePageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LdleFishGuidePageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,8 +140,6 @@
 				4CF9137C1D240C8000289998 /* Category */,
 				4CF913441D240B3C00289998 /* AppDelegate.h */,
 				4CF913451D240B3C00289998 /* AppDelegate.m */,
-				4CF913471D240B3C00289998 /* ViewController.h */,
-				4CF913481D240B3C00289998 /* ViewController.m */,
 				4CF9134F1D240B3C00289998 /* LaunchScreen.storyboard */,
 				4CF913521D240B3C00289998 /* Info.plist */,
 				4CA7867E1D3F14A4007A7CA9 /* Images.xcassets */,
@@ -504,7 +499,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF9138C1D240E8C00289998 /* LdleFishNavigationController.m in Sources */,
-				4CF913491D240B3C00289998 /* ViewController.m in Sources */,
 				4CF913461D240B3C00289998 /* AppDelegate.m in Sources */,
 				4CF913A21D240FC800289998 /* FishPondViewController.m in Sources */,
 				4CF913431D240B3C00289998 /* main.m in Sources */,

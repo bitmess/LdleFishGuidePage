@@ -19,18 +19,17 @@
 {
     [super viewDidLoad];
     
-
     HomeViewController *home = [[HomeViewController alloc] init];
-    [self addChildViewController:home andWithTitle:@"首页" andWithImage:@"fx_home_homeicon" andWithSelectedImage:@"fx_home_homeicon2"];
+    [self addChildViewController:home andWithTitle:@"闲鱼" andWithImage:@"home_normal" andWithSelectedImage:@"home_highlight"];
     
     FishPondViewController *fishPond = [[FishPondViewController alloc]init];
-    [self addChildViewController:fishPond andWithTitle:@"鱼塘" andWithImage:@"fx_home_info" andWithSelectedImage:@"fx_home_info2"];
+    [self addChildViewController:fishPond andWithTitle:@"鱼塘" andWithImage:@"fishpond_normal" andWithSelectedImage:@"fishpond_highlight"];
     
     MessageViewController *message = [[MessageViewController alloc] init];
-    [self addChildViewController:message andWithTitle:@"消息" andWithImage:@"fx_home_randhouse" andWithSelectedImage:@"fx_home_randhouse2"];
+    [self addChildViewController:message andWithTitle:@"消息" andWithImage:@"message_normal" andWithSelectedImage:@"message_highlight"];
 
     PersonalCenterViewController *personalCenter = [[PersonalCenterViewController alloc] init];
-    [self addChildViewController:personalCenter andWithTitle:@"个人中心" andWithImage:@"fx_home_mineicon" andWithSelectedImage:@"fx_home_mineicon2"];
+    [self addChildViewController:personalCenter andWithTitle:@"我的" andWithImage:@"account_normal" andWithSelectedImage:@"account_highlight"];
     
 }
 
@@ -45,7 +44,7 @@
     [childViewController.tabBarItem setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
     
     NSMutableDictionary *textSelectAttrs = [NSMutableDictionary dictionary];
-    textSelectAttrs[NSForegroundColorAttributeName] = [[UIColor alloc]initWithRed:54/255.0 green:185/255.0 blue:175/255.0 alpha:1.0];
+    textSelectAttrs[NSForegroundColorAttributeName] = [[UIColor alloc]initWithRed:38/255.0 green:38/255.0 blue:38/255.0 alpha:1.0];
     [childViewController.tabBarItem setTitleTextAttributes:textSelectAttrs forState:UIControlStateSelected];
     childViewController.tabBarItem.image = [UIImage imageNamed:image];
     childViewController.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
