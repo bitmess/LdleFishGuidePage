@@ -12,6 +12,12 @@
 #import "FishPondViewController.h"
 #import "HomeViewController.h"
 #import "LdleFishNavigationController.h"
+#import "LdleFishTabBar.h"
+#import "UIView+Extension.h"
+
+@interface LdleFishTabBarController ()<LdleFishTabBarDelegate, UIActionSheetDelegate>
+
+@end
 
 @implementation LdleFishTabBarController
 
@@ -31,6 +37,22 @@
     PersonalCenterViewController *personalCenter = [[PersonalCenterViewController alloc] init];
     [self addChildViewController:personalCenter andWithTitle:@"我的" andWithImage:@"account_normal" andWithSelectedImage:@"account_highlight"];
     
+    [self setupTabBar];
+    
+}
+
+- (void)setupTabBar
+{
+    LdleFishTabBar *tabBar = [[LdleFishTabBar alloc] init];
+    tabBar.ldleFishDelegate = self;
+    [[LdleFishTabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
+    [[LdleFishTabBar appearance] setShadowImage:[[UIImage alloc] init]];
+    [self setValue:tabBar forKey:@"tabBar"];
+}
+
+- (void)tabBar:(UITabBar *)tabBar didClickLdleFishButton:(UIButton *)button
+{
+  
 }
 
 - (void)addChildViewController:(UIViewController *)childViewController andWithTitle:(NSString *)title andWithImage:(NSString *)image andWithSelectedImage:(NSString *)selectedImage;
