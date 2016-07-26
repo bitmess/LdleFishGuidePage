@@ -8,6 +8,7 @@
 
 #import "UIBarButtonItem+Extension.h"
 #import "UIView+Extension.h"
+#import "LFCancelHighlightButton.h"
 
 @implementation UIBarButtonItem (Extension)
 
@@ -16,6 +17,15 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
     [button setBackgroundImage:[UIImage imageNamed:highlightImageName] forState:UIControlStateHighlighted];
+    [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    button.size = button.currentBackgroundImage.size;
+    return [[UIBarButtonItem alloc] initWithCustomView:button];
+}
+
++ (nullable UIBarButtonItem *)barButtonItemWithImage:(nullable NSString *)imageName target:(nullable id)target action:(nullable SEL)action
+{
+    LFCancelHighlightButton *button = [LFCancelHighlightButton buttonWithType:UIButtonTypeCustom];
+    [button setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     button.size = button.currentBackgroundImage.size;
     return [[UIBarButtonItem alloc] initWithCustomView:button];

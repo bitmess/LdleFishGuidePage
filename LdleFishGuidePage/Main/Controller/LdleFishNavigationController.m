@@ -14,8 +14,6 @@
 
 + (void)initialize
 {
-    // 设置UINavigationBar的背景色
-    [[UINavigationBar appearance] setBarTintColor:LFThemeColor];
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:[UIFont fontWithName:@"PingFang-SC-Regular" size:17.0]}];
 }
 

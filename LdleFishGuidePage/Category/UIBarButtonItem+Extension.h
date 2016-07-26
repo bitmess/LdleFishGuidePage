@@ -12,4 +12,6 @@
 
 + (nullable UIBarButtonItem *)barButtonItemWithImage:(nullable NSString *)imageName highlightImage:(nullable NSString *)highlightImageName target:(nullable id)target action:(nullable SEL)action;
 
++ (nullable UIBarButtonItem *)barButtonItemWithImage:(nullable NSString *)imageName target:(nullable id)target action:(nullable SEL)action;
+
 @end

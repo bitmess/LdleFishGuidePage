@@ -12,6 +12,9 @@
 		4C0108941D46565000FBCF91 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0108931D46565000FBCF91 /* UIView+Extension.m */; };
 		4C3F25611D47A3EB008CBB85 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F25601D47A3EB008CBB85 /* UIBarButtonItem+Extension.m */; };
 		4C3F25651D47A93E008CBB85 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F25641D47A93E008CBB85 /* Constant.m */; };
+		4C3F25681D47AD8B008CBB85 /* LFCancelHighlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F25671D47AD8B008CBB85 /* LFCancelHighlightButton.m */; };
+		4C3F256B1D47AE2C008CBB85 /* HomeCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F256A1D47AE2C008CBB85 /* HomeCategoryViewController.m */; };
+		4C3F25741D47B1A5008CBB85 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F25731D47B1A5008CBB85 /* UIImage+Extension.m */; };
 		4CA7867F1D3F14A4007A7CA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA7867E1D3F14A4007A7CA9 /* Images.xcassets */; };
 		4CBA1F481D43ABEB005DC9DD /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA1F1E1D43ABEB005DC9DD /* MJRefreshAutoFooter.m */; };
 		4CBA1F491D43ABEB005DC9DD /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA1F201D43ABEB005DC9DD /* MJRefreshBackFooter.m */; };
@@ -106,6 +109,12 @@
 		4C3F25601D47A3EB008CBB85 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		4C3F25631D47A93E008CBB85 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		4C3F25641D47A93E008CBB85 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		4C3F25661D47AD8B008CBB85 /* LFCancelHighlightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCancelHighlightButton.h; sourceTree = "<group>"; };
+		4C3F25671D47AD8B008CBB85 /* LFCancelHighlightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCancelHighlightButton.m; sourceTree = "<group>"; };
+		4C3F25691D47AE2C008CBB85 /* HomeCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCategoryViewController.h; sourceTree = "<group>"; };
+		4C3F256A1D47AE2C008CBB85 /* HomeCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCategoryViewController.m; sourceTree = "<group>"; };
+		4C3F25721D47B1A5008CBB85 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		4C3F25731D47B1A5008CBB85 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		4CA7867E1D3F14A4007A7CA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CBA1F1D1D43ABEB005DC9DD /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		4CBA1F1E1D43ABEB005DC9DD /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
@@ -276,6 +285,8 @@
 			children = (
 				4C3F25631D47A93E008CBB85 /* Constant.h */,
 				4C3F25641D47A93E008CBB85 /* Constant.m */,
+				4C3F25661D47AD8B008CBB85 /* LFCancelHighlightButton.h */,
+				4C3F25671D47AD8B008CBB85 /* LFCancelHighlightButton.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -547,6 +558,8 @@
 				4CF9137E1D240C9E00289998 /* UIWindow+NewFeature.m */,
 				4C3F255F1D47A3EB008CBB85 /* UIBarButtonItem+Extension.h */,
 				4C3F25601D47A3EB008CBB85 /* UIBarButtonItem+Extension.m */,
+				4C3F25721D47B1A5008CBB85 /* UIImage+Extension.h */,
+				4C3F25731D47B1A5008CBB85 /* UIImage+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -704,6 +717,8 @@
 			children = (
 				4CF9139D1D240FB600289998 /* HomeViewController.h */,
 				4CF9139E1D240FB600289998 /* HomeViewController.m */,
+				4C3F25691D47AE2C008CBB85 /* HomeCategoryViewController.h */,
+				4C3F256A1D47AE2C008CBB85 /* HomeCategoryViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -876,9 +891,11 @@
 				4CBA1FA81D43AC8C005DC9DD /* MJPropertyType.m in Sources */,
 				4CBA1FA91D43AC8C005DC9DD /* NSObject+MJClass.m in Sources */,
 				4CBA1FA51D43AC8C005DC9DD /* MJFoundation.m in Sources */,
+				4C3F25681D47AD8B008CBB85 /* LFCancelHighlightButton.m in Sources */,
 				4CF9138C1D240E8C00289998 /* LdleFishNavigationController.m in Sources */,
 				4CBA1F4D1D43ABEB005DC9DD /* MJRefreshAutoGifFooter.m in Sources */,
 				4CBA1F591D43ABEB005DC9DD /* UIScrollView+MJRefresh.m in Sources */,
+				4C3F25741D47B1A5008CBB85 /* UIImage+Extension.m in Sources */,
 				4CBA1F8C1D43AC41005DC9DD /* UIView+WebCacheOperation.m in Sources */,
 				4CBA1F491D43ABEB005DC9DD /* MJRefreshBackFooter.m in Sources */,
 				4CBA1F831D43AC41005DC9DD /* SDWebImageDownloaderOperation.m in Sources */,
@@ -913,6 +930,7 @@
 				4CBA1F801D43AC41005DC9DD /* SDWebImageCompat.m in Sources */,
 				4CBA1F511D43ABEB005DC9DD /* MJRefreshBackNormalFooter.m in Sources */,
 				4CBA1F811D43AC41005DC9DD /* SDWebImageDecoder.m in Sources */,
+				4C3F256B1D47AE2C008CBB85 /* HomeCategoryViewController.m in Sources */,
 				4CBA1F7F1D43AC41005DC9DD /* SDImageCache.m in Sources */,
 				4CBA1F7D1D43AC41005DC9DD /* MKAnnotationView+WebCache.m in Sources */,
 				4CBA1F541D43ABEB005DC9DD /* MJRefreshNormalHeader.m in Sources */,

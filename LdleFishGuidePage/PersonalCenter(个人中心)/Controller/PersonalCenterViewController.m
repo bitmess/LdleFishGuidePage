@@ -7,6 +7,8 @@
 //
 
 #import "PersonalCenterViewController.h"
+#import "UIImage+Extension.h"
+#import "Constant.h"
 
 @implementation PersonalCenterViewController
 
@@ -15,6 +17,15 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    // 设置导航栏ButtonItem
+    [self setupBarButtonItem];
 }
+
+- (void)setupBarButtonItem
+{
+    // 设置UINavigationBar的背景色
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:LFNavigationBarYellowColor] forBarMetrics:UIBarMetricsDefault];
+}
+
 
 @end
