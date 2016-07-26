@@ -10,6 +10,8 @@
 		4C01088E1D46552700FBCF91 /* LdleFishTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C01088D1D46552700FBCF91 /* LdleFishTabBar.m */; };
 		4C0108911D46555F00FBCF91 /* LdleFishButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0108901D46555F00FBCF91 /* LdleFishButton.m */; };
 		4C0108941D46565000FBCF91 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0108931D46565000FBCF91 /* UIView+Extension.m */; };
+		4C3F25611D47A3EB008CBB85 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F25601D47A3EB008CBB85 /* UIBarButtonItem+Extension.m */; };
+		4C3F25651D47A93E008CBB85 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F25641D47A93E008CBB85 /* Constant.m */; };
 		4CA7867F1D3F14A4007A7CA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA7867E1D3F14A4007A7CA9 /* Images.xcassets */; };
 		4CBA1F481D43ABEB005DC9DD /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA1F1E1D43ABEB005DC9DD /* MJRefreshAutoFooter.m */; };
 		4CBA1F491D43ABEB005DC9DD /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA1F201D43ABEB005DC9DD /* MJRefreshBackFooter.m */; };
@@ -100,6 +102,10 @@
 		4C0108901D46555F00FBCF91 /* LdleFishButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LdleFishButton.m; sourceTree = "<group>"; };
 		4C0108921D46565000FBCF91 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		4C0108931D46565000FBCF91 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		4C3F255F1D47A3EB008CBB85 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		4C3F25601D47A3EB008CBB85 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		4C3F25631D47A93E008CBB85 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		4C3F25641D47A93E008CBB85 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
 		4CA7867E1D3F14A4007A7CA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CBA1F1D1D43ABEB005DC9DD /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		4CBA1F1E1D43ABEB005DC9DD /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
@@ -263,6 +269,15 @@
 				4C0108901D46555F00FBCF91 /* LdleFishButton.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		4C3F25621D47A91A008CBB85 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F25631D47A93E008CBB85 /* Constant.h */,
+				4C3F25641D47A93E008CBB85 /* Constant.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		4CBA1F191D43ABEB005DC9DD /* Public(公共库) */ = {
@@ -530,6 +545,8 @@
 				4C0108931D46565000FBCF91 /* UIView+Extension.m */,
 				4CF9137D1D240C9E00289998 /* UIWindow+NewFeature.h */,
 				4CF9137E1D240C9E00289998 /* UIWindow+NewFeature.m */,
+				4C3F255F1D47A3EB008CBB85 /* UIBarButtonItem+Extension.h */,
+				4C3F25601D47A3EB008CBB85 /* UIBarButtonItem+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -537,6 +554,7 @@
 		4CF913801D240CE300289998 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4C3F25621D47A91A008CBB85 /* Other */,
 				4C01088B1D4654A400FBCF91 /* Tool */,
 				4CF913811D240CE300289998 /* Controller */,
 			);
@@ -852,6 +870,7 @@
 				4CBA1FAB1D43AC8C005DC9DD /* NSObject+MJKeyValue.m in Sources */,
 				4CBA1F571D43ABEB005DC9DD /* MJRefreshConst.m in Sources */,
 				4CBA1F841D43AC41005DC9DD /* SDWebImageManager.m in Sources */,
+				4C3F25611D47A3EB008CBB85 /* UIBarButtonItem+Extension.m in Sources */,
 				4C0108911D46555F00FBCF91 /* LdleFishButton.m in Sources */,
 				4CBA1F851D43AC41005DC9DD /* SDWebImagePrefetcher.m in Sources */,
 				4CBA1FA81D43AC8C005DC9DD /* MJPropertyType.m in Sources */,
@@ -889,6 +908,7 @@
 				4CBA1F881D43AC41005DC9DD /* UIImage+MultiFormat.m in Sources */,
 				4CF913A81D240FED00289998 /* PersonalCenterViewController.m in Sources */,
 				4CF913841D240D1000289998 /* LdleFishTabBarController.m in Sources */,
+				4C3F25651D47A93E008CBB85 /* Constant.m in Sources */,
 				4CBA1F4C1D43ABEB005DC9DD /* MJRefreshHeader.m in Sources */,
 				4CBA1F801D43AC41005DC9DD /* SDWebImageCompat.m in Sources */,
 				4CBA1F511D43ABEB005DC9DD /* MJRefreshBackNormalFooter.m in Sources */,
