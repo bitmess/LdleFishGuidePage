@@ -63,6 +63,7 @@
 		4CBA1FAD1D43AC8C005DC9DD /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA1FA31D43AC8C005DC9DD /* NSString+MJExtension.m */; };
 		4CE3E6591D490CB000132C1A /* HomeCategoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3E6581D490CB000132C1A /* HomeCategoryViewCell.m */; };
 		4CE3E65C1D49105400132C1A /* UIButton+VerticalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3E65B1D49105400132C1A /* UIButton+VerticalLayout.m */; };
+		4CE3E65F1D4914CA00132C1A /* UIView+CornerMaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3E65E1D4914CA00132C1A /* UIView+CornerMaskLayer.m */; };
 		4CF913431D240B3C00289998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913421D240B3C00289998 /* main.m */; };
 		4CF913461D240B3C00289998 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913451D240B3C00289998 /* AppDelegate.m */; };
 		4CF913511D240B3C00289998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF9134F1D240B3C00289998 /* LaunchScreen.storyboard */; };
@@ -214,6 +215,8 @@
 		4CE3E6581D490CB000132C1A /* HomeCategoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCategoryViewCell.m; sourceTree = "<group>"; };
 		4CE3E65A1D49105400132C1A /* UIButton+VerticalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+VerticalLayout.h"; sourceTree = "<group>"; };
 		4CE3E65B1D49105400132C1A /* UIButton+VerticalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+VerticalLayout.m"; sourceTree = "<group>"; };
+		4CE3E65D1D4914CA00132C1A /* UIView+CornerMaskLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerMaskLayer.h"; sourceTree = "<group>"; };
+		4CE3E65E1D4914CA00132C1A /* UIView+CornerMaskLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerMaskLayer.m"; sourceTree = "<group>"; };
 		4CF9133E1D240B3C00289998 /* LdleFishGuidePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LdleFishGuidePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF913421D240B3C00289998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CF913441D240B3C00289998 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -560,6 +563,8 @@
 			children = (
 				4C0108921D46565000FBCF91 /* UIView+Extension.h */,
 				4C0108931D46565000FBCF91 /* UIView+Extension.m */,
+				4CE3E65D1D4914CA00132C1A /* UIView+CornerMaskLayer.h */,
+				4CE3E65E1D4914CA00132C1A /* UIView+CornerMaskLayer.m */,
 				4CF9137D1D240C9E00289998 /* UIWindow+NewFeature.h */,
 				4CF9137E1D240C9E00289998 /* UIWindow+NewFeature.m */,
 				4C3F255F1D47A3EB008CBB85 /* UIBarButtonItem+Extension.h */,
@@ -927,6 +932,7 @@
 				4CBA1F5A1D43ABEB005DC9DD /* UIView+MJExtension.m in Sources */,
 				4CF913A51D240FD900289998 /* MessageViewController.m in Sources */,
 				4CF913891D240DAA00289998 /* LdleFishNewFeatrueController.m in Sources */,
+				4CE3E65F1D4914CA00132C1A /* UIView+CornerMaskLayer.m in Sources */,
 				4CBA1F8B1D43AC41005DC9DD /* UIImageView+WebCache.m in Sources */,
 				4CBA1F521D43ABEB005DC9DD /* MJRefreshBackStateFooter.m in Sources */,
 				4CBA1F861D43AC41005DC9DD /* UIButton+WebCache.m in Sources */,

@@ -7,10 +7,11 @@
 //
 
 #import "HomeCategoryViewCell.h"
+#import "UIButton+VerticalLayout.h"
 
 @interface HomeCategoryViewCell ()
 
-@property (nonatomic, weak) UIButton *verticalButton;
+@property (nonatomic, strong) UIButton *verticalButton;
 
 @end
 @implementation HomeCategoryViewCell
@@ -20,7 +21,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.contentView.backgroundColor = [UIColor whiteColor];
-
+        [self.contentView addSubview:self.verticalButton];
     }
     return self;
 }
@@ -29,7 +30,13 @@
 - (UIButton *)verticalButton
 {
     if (!_verticalButton) {
-        UIButton *verticalButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _verticalButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _verticalButton.frame = self.contentView.frame;
+        _verticalButton.titleLabel.font = [UIFont fontWithName:@"PingFang-SC-Regular" size:14.0];
+        [_verticalButton setTitle:@"测试" forState:UIControlStateNormal];
+        [_verticalButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_verticalButton setImage:[UIImage imageNamed:@"placeholder120x120"] forState:UIControlStateNormal];
+        [_verticalButton setVerticalLayoutWithSpace:6];
     }
     return _verticalButton;
 }
