@@ -61,6 +61,8 @@
 		4CBA1FAB1D43AC8C005DC9DD /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA1F9F1D43AC8C005DC9DD /* NSObject+MJKeyValue.m */; };
 		4CBA1FAC1D43AC8C005DC9DD /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA1FA11D43AC8C005DC9DD /* NSObject+MJProperty.m */; };
 		4CBA1FAD1D43AC8C005DC9DD /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA1FA31D43AC8C005DC9DD /* NSString+MJExtension.m */; };
+		4CE3E6591D490CB000132C1A /* HomeCategoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3E6581D490CB000132C1A /* HomeCategoryViewCell.m */; };
+		4CE3E65C1D49105400132C1A /* UIButton+VerticalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3E65B1D49105400132C1A /* UIButton+VerticalLayout.m */; };
 		4CF913431D240B3C00289998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913421D240B3C00289998 /* main.m */; };
 		4CF913461D240B3C00289998 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913451D240B3C00289998 /* AppDelegate.m */; };
 		4CF913511D240B3C00289998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF9134F1D240B3C00289998 /* LaunchScreen.storyboard */; };
@@ -208,6 +210,10 @@
 		4CBA1FA11D43AC8C005DC9DD /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		4CBA1FA21D43AC8C005DC9DD /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		4CBA1FA31D43AC8C005DC9DD /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		4CE3E6571D490CB000132C1A /* HomeCategoryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCategoryViewCell.h; sourceTree = "<group>"; };
+		4CE3E6581D490CB000132C1A /* HomeCategoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCategoryViewCell.m; sourceTree = "<group>"; };
+		4CE3E65A1D49105400132C1A /* UIButton+VerticalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+VerticalLayout.h"; sourceTree = "<group>"; };
+		4CE3E65B1D49105400132C1A /* UIButton+VerticalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+VerticalLayout.m"; sourceTree = "<group>"; };
 		4CF9133E1D240B3C00289998 /* LdleFishGuidePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LdleFishGuidePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF913421D240B3C00289998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CF913441D240B3C00289998 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -560,6 +566,8 @@
 				4C3F25601D47A3EB008CBB85 /* UIBarButtonItem+Extension.m */,
 				4C3F25721D47B1A5008CBB85 /* UIImage+Extension.h */,
 				4C3F25731D47B1A5008CBB85 /* UIImage+Extension.m */,
+				4CE3E65A1D49105400132C1A /* UIButton+VerticalLayout.h */,
+				4CE3E65B1D49105400132C1A /* UIButton+VerticalLayout.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -733,6 +741,8 @@
 		4CF9139C1D240FA000289998 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4CE3E6571D490CB000132C1A /* HomeCategoryViewCell.h */,
+				4CE3E6581D490CB000132C1A /* HomeCategoryViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -899,6 +909,7 @@
 				4CBA1F8C1D43AC41005DC9DD /* UIView+WebCacheOperation.m in Sources */,
 				4CBA1F491D43ABEB005DC9DD /* MJRefreshBackFooter.m in Sources */,
 				4CBA1F831D43AC41005DC9DD /* SDWebImageDownloaderOperation.m in Sources */,
+				4CE3E6591D490CB000132C1A /* HomeCategoryViewCell.m in Sources */,
 				4CBA1F531D43ABEB005DC9DD /* MJRefreshGifHeader.m in Sources */,
 				4CBA1F501D43ABEB005DC9DD /* MJRefreshBackGifFooter.m in Sources */,
 				4CBA1F551D43ABEB005DC9DD /* MJRefreshStateHeader.m in Sources */,
@@ -937,6 +948,7 @@
 				4CF9139F1D240FB600289998 /* HomeViewController.m in Sources */,
 				4CBA1F4F1D43ABEB005DC9DD /* MJRefreshAutoStateFooter.m in Sources */,
 				4CBA1FA41D43AC8C005DC9DD /* MJExtensionConst.m in Sources */,
+				4CE3E65C1D49105400132C1A /* UIButton+VerticalLayout.m in Sources */,
 				4C01088E1D46552700FBCF91 /* LdleFishTabBar.m in Sources */,
 				4CBA1F481D43ABEB005DC9DD /* MJRefreshAutoFooter.m in Sources */,
 				4CBA1F7E1D43AC41005DC9DD /* NSData+ImageContentType.m in Sources */,
