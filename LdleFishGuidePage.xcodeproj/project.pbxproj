@@ -82,6 +82,7 @@
 		4CF913A51D240FD900289998 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913A41D240FD900289998 /* MessageViewController.m */; };
 		4CF913A81D240FED00289998 /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913A71D240FED00289998 /* PersonalCenterViewController.m */; };
 		4CF913AC1D2411CF00289998 /* LdleFishNewFeatrueViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF913AB1D2411CF00289998 /* LdleFishNewFeatrueViewCell.m */; };
+		86D3473E4EF166C5037D30A7 /* libPods-LdleFishGuidePage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6C2C75B3267D5FCD7900DA /* libPods-LdleFishGuidePage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -251,6 +252,9 @@
 		4CF913A71D240FED00289998 /* PersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
 		4CF913AA1D2411CF00289998 /* LdleFishNewFeatrueViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LdleFishNewFeatrueViewCell.h; sourceTree = "<group>"; };
 		4CF913AB1D2411CF00289998 /* LdleFishNewFeatrueViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LdleFishNewFeatrueViewCell.m; sourceTree = "<group>"; };
+		986088187F1549052509DF58 /* Pods-LdleFishGuidePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LdleFishGuidePage.release.xcconfig"; path = "Pods/Target Support Files/Pods-LdleFishGuidePage/Pods-LdleFishGuidePage.release.xcconfig"; sourceTree = "<group>"; };
+		AB6C2C75B3267D5FCD7900DA /* libPods-LdleFishGuidePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LdleFishGuidePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7FE99F8FFAEDE28709D75B /* Pods-LdleFishGuidePage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LdleFishGuidePage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LdleFishGuidePage/Pods-LdleFishGuidePage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +262,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D3473E4EF166C5037D30A7 /* libPods-LdleFishGuidePage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +283,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C53B1C301603AE05038FA6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C2C75B3267D5FCD7900DA /* libPods-LdleFishGuidePage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4C01088B1D4654A400FBCF91 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
@@ -494,6 +507,8 @@
 				4CF9135A1D240B3C00289998 /* LdleFishGuidePageTests */,
 				4CF913651D240B3C00289998 /* LdleFishGuidePageUITests */,
 				4CF9133F1D240B3C00289998 /* Products */,
+				4D1805459563C3A7B48F0131 /* Pods */,
+				2C53B1C301603AE05038FA6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -761,6 +776,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		4D1805459563C3A7B48F0131 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FE99F8FFAEDE28709D75B /* Pods-LdleFishGuidePage.debug.xcconfig */,
+				986088187F1549052509DF58 /* Pods-LdleFishGuidePage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -768,9 +792,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CF9136B1D240B3C00289998 /* Build configuration list for PBXNativeTarget "LdleFishGuidePage" */;
 			buildPhases = (
+				68137E137874703F8F96CA08 /* [CP] Check Pods Manifest.lock */,
 				4CF9133A1D240B3C00289998 /* Sources */,
 				4CF9133B1D240B3C00289998 /* Frameworks */,
 				4CF9133C1D240B3C00289998 /* Resources */,
+				C0D0F1CAFC7F8DF2A604F67F /* [CP] Embed Pods Frameworks */,
+				0006E25C3C7AB87583764B18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -889,6 +916,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0006E25C3C7AB87583764B18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LdleFishGuidePage/Pods-LdleFishGuidePage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68137E137874703F8F96CA08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D0F1CAFC7F8DF2A604F67F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LdleFishGuidePage/Pods-LdleFishGuidePage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CF9133A1D240B3C00289998 /* Sources */ = {
@@ -1093,6 +1168,7 @@
 		};
 		4CF9136C1D240B3C00289998 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7FE99F8FFAEDE28709D75B /* Pods-LdleFishGuidePage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1106,6 +1182,7 @@
 		};
 		4CF9136D1D240B3C00289998 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986088187F1549052509DF58 /* Pods-LdleFishGuidePage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
