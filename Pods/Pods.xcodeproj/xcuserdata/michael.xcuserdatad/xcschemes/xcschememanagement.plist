@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MJExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,17 +24,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>YYKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>YYModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,12 +47,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>51CDB425912F6C73D78C0A908A63D999</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>964FCDB25E00E1BE562B02EA402A5EA2</key>
+		<key>774A21B8659704EE5E9E236782AB1D13</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A2F771A4C279E96B605D4EF3DAA1EB05</key>
+		<key>A316B54C67E947D23CECD230FA5BFAEF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BCFCB7FF0F2F76F509357DBDA88B03BC</key>
+		<key>C202099C8FCD58940B5F834087685CAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9B6A38A5CAA47CDEE06F91BA948EE0B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFB985572C430E3ADA8F0159467BFE19</key>
 		<dict>
 			<key>primary</key>
 			<true/>

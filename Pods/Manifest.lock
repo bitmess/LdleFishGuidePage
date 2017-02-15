@@ -1,26 +1,31 @@
 PODS:
   - Masonry (0.6.4)
+  - MJExtension (3.0.10)
   - MJRefresh (3.1.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
   - SVProgressHUD (2.0)
   - YYKit (1.0.3):
     - YYKit/no-arc (= 1.0.3)
   - YYKit/no-arc (1.0.3)
-  - YYModel (1.0.2)
 
 DEPENDENCIES:
   - Masonry (~> 0.6.4)
+  - MJExtension (~> 3.0.10)
   - MJRefresh (~> 3.1.0)
+  - SDWebImage (~> 3.7.5)
   - SVProgressHUD (~> 2.0)
   - YYKit (~> 1.0.3)
-  - YYModel (~> 1.0.2)
 
 SPEC CHECKSUMS:
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SVProgressHUD: e9e7c893686a20da55a28015ed384d9425e15479
   YYKit: fa66d61240458f14562c33c85c91d11131e43261
-  YYModel: 7a467eff45ae3641c33efb136c262d33b6f48c1a
 
-PODFILE CHECKSUM: 57c4c10cf3af5234f203797777d3fcd51278dfb7
+PODFILE CHECKSUM: 89c511fbe57b1a2ec49ea17c54976477e58cf732
 
 COCOAPODS: 1.2.0
