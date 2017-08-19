@@ -12,11 +12,6 @@
 
 @implementation LdleFishNavigationController
 
-+ (void)initialize
-{
-    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:[UIFont fontWithName:@"PingFang-SC-Regular" size:17.0]}];
-}
-
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
     return UIStatusBarStyleDefault;

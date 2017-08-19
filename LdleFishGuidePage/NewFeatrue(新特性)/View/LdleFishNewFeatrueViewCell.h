@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-// 是否播放完成
-typedef void(^MoviePlayFinishedBlock) (BOOL);
+#define PlayFinishedNotify @"PlayFinishedNotify"
 
 @interface LdleFishNewFeatrueViewCell : UICollectionViewCell
 
-@property (nonatomic, copy) NSString *moviePath;
-@property (nonatomic, copy) NSString *imagePath;
-@property (nonatomic, copy) MoviePlayFinishedBlock finishedBlock;
+// 占位图
+@property (nonatomic, strong, nonnull) UIImage *placeholdImage;
+
+// 视频路径
+@property (nonatomic, strong, nonnull) NSString *moviePath;
 
 @end

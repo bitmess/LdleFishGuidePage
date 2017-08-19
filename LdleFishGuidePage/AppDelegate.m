@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "UIWindow+NewFeature.h"
 #import "LdleFishTabBarController.h"
+#import "LdleFishNewFeatrueController.h"
 
 @interface AppDelegate ()
 
@@ -25,7 +26,7 @@
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor blackColor];
     
-    self.window.rootViewController = [[LdleFishTabBarController alloc] init];
+    self.window.rootViewController = [[LdleFishNewFeatrueController alloc] init];
     
     [self.window makeKeyAndVisible];
     
